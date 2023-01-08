@@ -1,0 +1,153 @@
+header{
+    background-image: url(images/banner/banner2.png);
+    padding: 30px;
+    height: 100vh;
+    width: 93vw;
+}
+.header-right{
+    text-align: right;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 20%;
+
+}
+.heading-text{
+    font-weight: 700px;
+
+}
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #4595ca;
+    width: 100px;
+
+
+}
+/* second section */
+.my-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 150px;
+  
+  }
+   .title {
+    font-size: 25px;
+  }
+   .description-list {
+   margin-top: 25px;
+  
+    font-size: 18px;
+   }
+   .details-section {
+    width: 50%;
+    margin-left: 80px;
+  }
+   .image-container {
+    width: 50%;
+  }
+  .my-info-description {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  
+  
+  
+   .description-list ul li {
+    margin-left: 13px;
+  }
+   .description-list ul li i {
+    margin-right: 10px;
+    color: yellow;
+  }
+  .plans-section-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.plans-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plan-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.plan-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plan-sub{
+    font-size: 25px;
+    color: #737272;
+}
+.mindset-section-content-title {
+    margin-bottom: 24px;
+    color: red;
+}
+
+.mindset-section-container-content {
+    background: url(images/watch.png), linear-gradient(120deg, rgb(172, 112, 0), rgb(0, 95, 172, 0%));
+      background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 60px;
+  background-blend-mode: overlay;
+    border-radius: 10px;
+    background-position: center;
+
+}
+.mind-set-section{
+    margin: 45px auto ;
+    width: 70%;
+
+}
+/* footer section styles */
+footer{
+    padding: 140px 210px;
+    background-color: rgb(39, 37, 37);
+}
+.footer-title{
+    color: white;
+    margin-bottom: 25px;
+
+    font-size:50px;
+    font-weight: 700;
+}
+.footer-info{
+  color: white;
+    margin-bottom: 25px;
+    line-height: 1.3em;
+
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 180px;
+}
+.footer-content{
+    width:62%;
+}
+.subscribe{
+    color: aliceblue;
+}
+.extra-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
